@@ -63,11 +63,11 @@ GBI.ts
 acf(GBI.ts)
 # Forecasting
 GBI.ts.tbats <- tbats(GBI.ts)
-plot(x.ts.tbats)
-x.ts.tbats
+plot(GBI.ts.tbats)
+GBI.ts.tbats
 # Forecast the data for ~5 years ahead
-x.ts.fore <- forecast(x.ts.tbats, h=7200)
-plot(x.ts.fore)
-x.ts.fore
+GBI.ts.fore <- forecast(GBI.ts.tbats, h=7200)
+plot(GBI.ts.fore)
+GBI.ts.fore
 
 
